@@ -1,7 +1,9 @@
 name: Setup Minikube Cluster
 
 on:
-  pull_request:
+    push:
+      branches:
+        - main
 
 jobs:
   setup-minikube:
